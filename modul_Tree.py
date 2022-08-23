@@ -68,3 +68,10 @@ class Tree ():
         if self.right == None:
             return
         self.right.print_max()
+
+    def print_min(self):
+        print(self.main)
+
+        if self.left == None:
+            return
+        self.left.print_min()

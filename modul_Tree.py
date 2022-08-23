@@ -9,7 +9,7 @@ class Tree ():
             self.main = num
             return
         
-        if self.main < num:
+        if self.main > num:
             if self.left == None:
                 self.left = Tree()
                 self.left.main = num

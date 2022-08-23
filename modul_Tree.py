@@ -61,3 +61,8 @@ class Tree ():
                     new_obj.append(None)
                     
             tree = new_obj
+
+    def print_max(self):
+        print(self.main)
+        if self.right == None:return
+        self.right.print_max()
